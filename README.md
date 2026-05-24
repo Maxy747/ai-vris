@@ -24,6 +24,12 @@
 
 ---
 
+<div align="center">
+  <video src="docs/media/demo_1.mp4" width="80%" autoplay loop muted playsinline controls></video>
+</div>
+
+---
+
 ## 🚀 Status
 ✅ Major Project Completed  
 ✅ Demo APK Developed  
@@ -35,6 +41,14 @@
 ## 💡 Why AI-VRIS? (Project Motivation)
 
 Many students struggle with interview anxiety and lack access to realistic mock interview experiences. AI-VRIS was built to provide an affordable, immersive, and AI-powered platform that helps users improve confidence and communication skills before real interviews.
+
+### ✨ Key Innovations
+
+* **Context-aware interview generation** tailored to specific job roles.
+* **Resume-conditioned AI prompting** ensuring personalized questioning.
+* **Real-time VR speech pipeline** handling audio capture and transcription seamlessly.
+* **Adaptive multi-stage interview orchestration** progressing from intro to technical to HR.
+* **AI-generated performance analytics** evaluating candidates across multiple dimensions.
 
 ---
 
@@ -104,6 +118,14 @@ Simulates real interview pressure using an interactive VR environment.
 ### 🔁 Multi-Stage Interview Flow
 Supports Introduction, Resume discussion, Technical rounds, HR/behavioral rounds, and a Final wrap-up.
 
+### 💬 Sample Interview Flow
+
+> **AI Interviewer:** "Tell me about yourself."
+> 
+> **Candidate:** "I recently completed projects in AI and VR systems..."
+> 
+> **AI Interviewer:** "Interesting. Can you explain how you handled latency in your VR communication pipeline?"
+
 ---
 
 ## 📐 Architecture
@@ -117,6 +139,18 @@ The system follows a decoupled architecture, bridging immersive VR with heavy AI
 <div align="center">
   <img src="docs/media/Dataflow%20diagram.jpeg" width="80%" alt="Dataflow Diagram" />
 </div>
+
+### 🧩 System Components
+
+| Component | Responsibility |
+| :--- | :--- |
+| **Unity Client** | VR interaction & voice capture |
+| **Django Backend** | Session management & REST APIs |
+| **LLM Engine (Groq/Gemini)** | Dynamic question generation |
+| **STT Service (GCP)** | Audio transcription |
+| **TTS Service (PlayAI)** | AI interviewer voice synthesis |
+| **Scoring Engine** | Candidate evaluation & feedback |
+| **Reporting Engine** | Final performance analytics |
 
 ```mermaid
 graph TD
@@ -182,6 +216,17 @@ graph TD
 
 ---
 
+## 🎓 Educational Significance
+
+AI-VRIS explores the intersection of several cutting-edge fields:
+* **Artificial Intelligence** & Generative Models
+* **Immersive Computing** & Extended Reality (XR)
+* **Human-Computer Interaction (HCI)**
+* **Conversational AI** & Agentic Workflows
+* **Speech Technologies** (ASR and TTS)
+
+---
+
 ## 🧩 API Documentation
 
 Core REST endpoints driving the VR experience:
@@ -219,6 +264,22 @@ ai-vris/
 
 ---
 
+## ⚡ Performance Optimizations
+
+* **Fast LLM inference** utilizing the Groq API for near-instant responses.
+* **Asynchronous audio processing** ensuring the VR framerate remains unblocked.
+* **Lightweight REST communication** between Unity and Django.
+* **Efficient session state handling** enabling context retention without heavy database calls.
+
+## 🛡️ Security Considerations
+
+* **Temporary audio processing:** Voice data is processed and immediately discarded.
+* **Secure API communication:** Ensuring integrity between the VR client and cloud backend.
+* **Session-based report handling:** Keeping candidate evaluations private.
+* **Environment variable protected credentials:** No hardcoded API keys for Groq or GCP.
+
+---
+
 ## 🔮 Future Improvements
 
 * Multiplayer interview panels (e.g., multiple AI recruiters).
@@ -228,6 +289,15 @@ ai-vris/
 * Multi-language interview support.
 * Cloud analytics dashboard for long-term tracking.
 * Recruiter-side evaluation portal.
+
+---
+
+## 🧠 Lessons Learned
+
+1. **Managing VR latency** requires careful backend coordination; any delay breaks immersion.
+2. **Real-time speech systems** are highly sensitive to network fluctuations.
+3. **Prompt engineering** greatly impacts the realism and flow of the AI's questioning.
+4. **User immersion** depends heavily on response timing consistency and the avatar's lifelike presence.
 
 ---
 
@@ -281,6 +351,16 @@ python manage.py runserver 0.0.0.0:8000
 * **Libin** — VR Development
 * **Ahmad** — System Integration
 * **Marwan** — Additional Contributions
+
+---
+
+## 🙌 Acknowledgements
+
+* **[Groq](https://groq.com/)** for lightning-fast LLM inference.
+* **[Google Cloud](https://cloud.google.com/)** for highly accurate Speech-to-Text.
+* **[PlayAI](https://play.ht/)** for natural-sounding Text-to-Speech synthesis.
+* **[Unity XR Toolkit](https://unity.com/features/xr)** for the VR interaction foundation.
+* **[Django REST Framework](https://www.django-rest-framework.org/)** for the robust backend API structure.
 
 ---
 
