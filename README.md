@@ -51,12 +51,12 @@ Many students struggle with interview anxiety and lack access to realistic mock 
 
 ### Environment & Dashboard Previews
 <div align="center">
-  <img src="docs/media/Main%20menu.jpg" width="30%" alt="Main Menu" />
-  <img src="docs/media/Name%20and%20Role.jpg" width="30%" alt="Upload Menu" />
-  <img src="docs/media/Interview%20Room.png" width="30%" alt="VR Interview" />
+  <img src="docs/media/Main%20menu.jpg" width="45%" alt="Main Menu" />
+  <img src="docs/media/Name%20and%20Role.jpg" width="45%" alt="Upload Menu" />
 </div>
 <br>
 <div align="center">
+  <img src="docs/media/Interview%20Room.png" width="30%" alt="VR Interview" />
   <img src="docs/media/Interview%20Report%20Summary.png" width="30%" alt="Candidate Summary" />
   <img src="docs/media/Report%20History.png" width="30%" alt="Reports Menu" />
 </div>
@@ -104,8 +104,11 @@ Supports Introduction, Resume discussion, Technical rounds, HR/behavioral rounds
 The system follows a decoupled architecture, bridging immersive VR with heavy AI processing.
 
 <div align="center">
-  <img src="docs/media/Systems%20Architecture.jpeg" width="45%" alt="Systems Architecture" />
-  <img src="docs/media/Dataflow%20diagram.jpeg" width="45%" alt="Dataflow Diagram" />
+  <img src="docs/media/Systems%20Architecture.jpeg" width="80%" alt="Systems Architecture" />
+</div>
+<br>
+<div align="center">
+  <img src="docs/media/Dataflow%20diagram.jpeg" width="80%" alt="Dataflow Diagram" />
 </div>
 
 ```mermaid
