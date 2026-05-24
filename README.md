@@ -43,10 +43,17 @@ Many students struggle with interview anxiety and lack access to realistic mock 
 > **Note**: Demo video and high-resolution screenshots are located in the `docs/media/` folder.
 
 <div align="center">
-  
-  *(Insert your YouTube/Drive Link or GIF here)*
-  
-  <img src="docs/media/demo_placeholder.gif" width="80%" alt="AI VR Interview Demo"/>
+  <a href="docs/media/demo_1.mp4">
+    <img src="https://img.shields.io/badge/▶_Watch_Demo_Part_1-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch Demo 1" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="docs/media/demo_2.mp4">
+    <img src="https://img.shields.io/badge/▶_Watch_Demo_Part_2-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch Demo 2" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="docs/media/demo_3.mp4">
+    <img src="https://img.shields.io/badge/▶_Watch_Demo_Part_3-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch Demo 3" />
+  </a>
 </div>
 
 ### Environment & Dashboard Previews
